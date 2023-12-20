@@ -27,7 +27,8 @@ namespace ArgConvert.Converters
         }
         // returns [min,max) possible lengths of times of day accepted by this converter
         public int[] PossibleLengthRange() {
-            return new int[] { "h:mm tt".Length, "hh:mm tt".Length+1 };
+            return new int [] { "h:mm tt".Length, "hh:mm tt".Length+1 };
         }
     }
 }
+ 
